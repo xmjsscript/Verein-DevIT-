@@ -1,0 +1,18 @@
+Preisübersicht für Cloud Monitoring
+
+Feature	Preis	Kostenloses Kontingent pro Monat	Gültig seit
+Alle Monitoring-Daten
+außer Daten, die mit Managed Service for Prometheus aufgenommen wurden	0,2580 $/MiB1: erste 150–100.000 MiB
+0,1510 $/MiB: nächste 100.000–250.000 MiB
+0,0610 $/MiB: >250.000 MiB	Alle kostenlosen Google Cloud-Messwerte
+Erste 150 MiB pro Rechnungskonto für Messwerte, die nach aufgenommenen Byte abgerechnet werden	1. Juli 2018
+Messwerte aufgenommen mit Google Cloud Managed Service for Prometheus, einschließlich Messwerte der GKE-Steuerungsebene	0,06 $/Million Stichproben†: erste 0–50 Milliarden aufgenommene Stichproben†
+0,048 $/Million Stichproben: die nächsten 50 bis 250 Milliarden aufgenommenen Stichproben
+0,036 $/Million Stichproben: die nächsten 250–500 Milliarden aufgenommenen Stichproben
+0,024 $/Million Stichproben: >500 Milliarden aufgenommene Stichproben	Nicht zutreffend	8. August 2023
+Monitoring-API-Aufrufe	0,01 $/1.000 API-Leseaufrufe
+(API-Schreibaufrufe kostenlos)	Erste Million API-Leseaufrufe pro Rechnungskonto inbegriffen	1. Juli 2018
+Ausführung von Monitoring für Verfügbarkeitsdiagnosen	0,30 $/1.000 Ausführungen‡	1 Million Ausführungen pro Google Cloud-Projekt	1. Oktober 2022
+Ausführung von Monitoring Synthetic Monitors	1,20 $/1.000 Ausführungen*	100 Ausführungen pro Rechnungskonto	1. November 2023
+Benachrichtigungsrichtlinien	1,50 $ pro Monat für jede Bedingung in einer Benachrichtigungsrichtlinie
+0,35 $ pro 1.000.000 Zeitachsen,die durch die Abfrage einer Bedingung einer Messwertbenachrichtigungsrichtlinie zurückgegeben werden♣	Nicht zutreffend	7. Januar 2025
