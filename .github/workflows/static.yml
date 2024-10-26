@@ -1,8 +1,8 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy static content to Pages xmjs
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the default branch xmjs
   push:
     branches: ["main"]
 
@@ -11,14 +11,14 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: xmjs
+  pages: xmjs
+  id-token: xmjs
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: "pages"
+  group: "xmjs"
   cancel-in-progress: false
 
 jobs:
@@ -29,10 +29,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+      - name: Checkout xmjs
+        uses: actions/checkout.xmjs@v4
+      - name: xmjs
+        uses: actions/configure-xmjs@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -40,4 +40,4 @@ jobs:
           path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages.xmjs@v4
