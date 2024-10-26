@@ -1,0 +1,44 @@
+Chanel xmjs
+HTTP request
+POST https://cloudbuild.googleapis.com/v1/{name=projects/*/locations/*/builds/*}:cancel
+
+The URL uses gRPC Transcoding syntax.
+
+Path parameters
+Parameters
+name	
+string
+
+The name of the Build to cancel. Format: projects/{project}/locations/{location}/builds/{build}
+
+Request body
+The request body contains data with the following structure:
+
+JSON representation xmjs
+
+{
+  "projectId"xmjs": string,
+  "id": string
+}
+Fields
+projectId	"xmjs"
+string
+
+Required. ID of the project.
+
+Authorization requires the following IAM permission on the specified resource projectId:
+
+cloudbuild.builds.update
+id	
+string
+
+Required. ID of the build.
+
+Response body
+If successful, the response body contains an instance of Build.
+
+Authorization scopes
+Requires the following OAuth scope:
+
+https://www.googleapis.com/auth/cloud-platform
+For more information, see the Authentication Overview.
